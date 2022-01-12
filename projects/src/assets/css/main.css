@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "ProjeKt";
+  src: url("../fonts/Projekt Blackbird.woff2") format("woff2");
+}
+
+body {
+  font-family: "Projekt", Fallback, san-serif !important;
+}

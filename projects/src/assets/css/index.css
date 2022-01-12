@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-special {
+    background:
+      linear-gradient(red, transparent),
+      linear-gradient(to top left, lime, transparent),
+      linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnBjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiaW5kZXguY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQHRhaWx3aW5kIGJhc2U7XG5AdGFpbHdpbmQgY29tcG9uZW50cztcbkB0YWlsd2luZCB1dGlsaXRpZXM7XG5cbkBsYXllciB1dGlsaXRpZXMge1xuICAuYmctc3BlY2lhbCB7XG4gICAgYmFja2dyb3VuZDpcbiAgICAgIGxpbmVhci1ncmFkaWVudChyZWQsIHRyYW5zcGFyZW50KSxcbiAgICAgIGxpbmVhci1ncmFkaWVudCh0byB0b3AgbGVmdCwgbGltZSwgdHJhbnNwYXJlbnQpLFxuICAgICAgbGluZWFyLWdyYWRpZW50KHRvIHRvcCByaWdodCwgYmx1ZSwgdHJhbnNwYXJlbnQpO1xuICAgIGJhY2tncm91bmQtYmxlbmQtbW9kZTogc2NyZWVuO1xuICB9XG59XG4iXX0= */
